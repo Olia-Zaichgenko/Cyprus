@@ -2021,15 +2021,19 @@ footer .light{
     }
     .Gids {
         top: 1980px;
+        left: 140px;
     }
     .cost1 {
         top: 1830px;
+        left: 140px;
     }
     .cost2 {
         top: 1905px;
+        left: 60px;
     }
     .cost4 {
         top: 1905px;
+        left: 220px;
     }
     .section-blog .grid {
         grid-template-columns: repeat(3, 90px);
