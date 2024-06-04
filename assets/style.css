@@ -242,3 +242,82 @@ h6{
     top: 1640px;
     left: 380px;
 }
+.container-enough{
+    color: #FFFFFF;
+}
+.box {
+    width: 108px;
+    height: 108px;
+   overflow: hidden;
+   background-color: #F87932;
+   margin: 3px 0 0 3px;
+}
+.box > img {
+    max-width: 100%;
+    transform: rotate(-45deg) scale(2.1);
+    z-index: 3;
+    position: relative;
+    padding: 35px 35px 35px 45px;
+}
+.outlinekk{
+    width: 113px;
+    height: 113px;
+   transform: rotate(45deg);
+   overflow: hidden;
+    outline: 10px solid  #F87932;
+    margin-top: 120px;
+ }
+ .section-enough .video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ }
+ .cost {
+    height: 200px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    outline: 13px solid #39BFA7;
+    margin: 105px 0 0 5px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    margin-right: 130px;
+    text-align: center;
+}
+.cost4{
+    margin-right: 0px;
+}
+.cost .romb{
+    width: 53px;
+    height: 53px;
+    overflow: hidden;
+    outline: 5px solid #573b25;
+    background-color: #39BFA7;
+    margin: 15px 0 0 5px;
+    border-radius: 2px;
+}
+.cost .romb p{
+    transform: rotate(-45deg);
+    padding: 10px  10px 10px 5px;
+}
+.cost h4 {
+    transform: rotate(-45deg);
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    margin: 10px 0px 0px 25px;
+}
+.Gids h4{
+    margin: 10px 10px 0 0;
+}
+.container-enough .row{
+    margin-top: 122px;
+}
+.section-enough{
+    background: url(./img/bg2.png);
+    margin-top: 100px;
+    padding-top: 350px;
+    background-repeat: no-repeat;
+}
