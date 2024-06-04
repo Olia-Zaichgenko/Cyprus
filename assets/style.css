@@ -48,8 +48,7 @@ h6{
     border-radius: 0 0 15px 15px;
     box-shadow: 0 5px 10px 0 #444444;
     text-align: center;
-    /* width: 150px; */
-    padding: 15px;
+    padding-top: 15px;
     transition: .5s;
 }
 .block-1{
@@ -524,16 +523,15 @@ footer .description{
 footer .light{
     font-weight: 300;
 }
-@media(max-width:1600px){
+@media(max-width:1601px){
     .container{
         width: 1400px !important;
     }
     .header{
         height: 930px;
     }
-    .navigation .container{
-        display: flex;
-        justify-content: center;
+    .navigation .row {
+        padding-left: 90px;
     }
     .welcome .rombs{
         height: 830px;
@@ -696,9 +694,18 @@ footer .light{
         padding-top: 55px;
     }
 }
-@media(max-width:1440px){
+
+@media(max-width:1441px){
     .container{
         width: 1300px !important;
+    }
+    .block-1 {
+        height: 42px;
+        padding-top: 5px;
+    }
+    .block-2 {
+        height: 82px;
+        padding-top: 5px;
     }
     .traveling {
         margin: 180px 80px 0 0;
@@ -736,5 +743,122 @@ footer .light{
     }
     footer .line {
         margin: 40px 0;
+    }
+}
+
+@media(max-width:1367px){
+    .container{
+        width: 1300px !important;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h5 {
+        font-size: 23px;
+    }
+    .header {
+        height: 870px;
+    }
+    .welcome .rombs {
+        height: 700px;
+    }
+    .traveling {
+        margin: 100px 80px 0 0;
+    }
+    .img1{
+        height: 400px;
+    }
+    .img2 {
+        height: 200px;
+        top: 500px;
+        right: 500px;
+    }
+    .img3 {
+        height: 120px;
+        top: 550px;
+        right: 360px;
+    }
+    .img4 {
+        height: 220px;
+        top: 430px;
+        right: 180px;
+    }
+    .img5 {
+        height: 110px;
+        top: 350px;
+        right: 170px;
+    }
+    .img6 {
+        height: 200px;
+        top: 170px;
+        right: 170px;
+    }
+    .slider {
+        margin-top: 100px;
+    }
+    .traveling {
+        margin: 100px 100px 0 0;
+    }
+    .Nicosia {
+        top: 810px;
+        left: 490px;
+    }
+    .Limassol {
+        top: 970px;
+        left: 50px;
+    }
+    .Larnaca {
+        top: 1077px;
+        left: 630px;
+    }
+    .Troodos {
+        top: 1370px;
+        left: 500px;
+    }
+    .Paphos {
+        top: 1390px;
+        left: 140px;
+    }
+    .section-adventure button {
+        margin-top: 120px;
+    }
+    .section-enough {
+        padding-top: 150px;
+        height: 750px;
+    }
+    .outlinekk {
+        width: 70px;
+        height: 70px;
+    }
+    .box {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
+    .container-enough .row {
+        margin-top: 150px;
+    }
+    .section-blog .grid {
+        grid-template-columns: repeat(4, 210px);
+        grid-template-rows: repeat(2, 210px);
+        padding-left: 110px;
+    }
+    .section-blog button {
+        margin: 30px 0 0 480px;
+    }
+    .section-roadmap {
+        padding: 50px 0 50px 0;
+    }
+    .section-roadmap h3 {
+        font-size: 32px;
+        font-family: 'Merriweather';
+    }
+    .section-feedback .container {
+        padding-top: 30px;
+    }
+    .forma .photo {
+        height: 120px;
+        width: 120px;
+        border-radius: 25px;
     }
 }
