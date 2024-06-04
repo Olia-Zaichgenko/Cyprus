@@ -626,3 +626,73 @@ footer .light{
         padding: 60px 0;
     }
 }
+@media(max-width:1537px){
+    .container{
+        width: 1400px !important;
+    }
+    .slider {
+        margin-top: 20px;
+    }
+    .img2 {
+        top: 530px;
+        right: 520px;
+    }
+    .img6 {
+        top: 100px;
+        right: 100px;
+    }
+    .img5 {
+        top: 350px;
+        right: 100px;
+    }
+    .img4 {
+        top: 450px;
+        right: 115px;
+    }
+    .img3 {
+        top: 600px;
+        right: 330px;
+    }
+    .Limassol {
+        position: absolute;
+        top: 1010px;
+        left: 60px;
+    }
+    .cost {
+        height: 150px;
+        width: 150px;
+        outline: 10px solid #39BFA7;
+        margin-right: 130px;
+        text-align: center;
+    }
+    .cost4{
+        margin-right: 0px !important;
+    }
+    .cost h4 {
+        text-align: center;
+        font-size: 24px;
+        margin-left: 25px;
+    }
+    .container-enough .row {
+        margin-top: 110px;
+    }
+    .section-enough {
+        height: 855px;
+    }
+    .section-blog .grid {
+        grid-template-columns: repeat(4, 252px);
+        grid-template-rows: repeat(2, 252px);
+    }
+    .section-blog .grid {
+        padding-left: 110px;
+    }
+    .section-roadmap {
+        padding: 70px 0 70px 0;
+    }
+    .section-roadmap .main_part {
+        margin-top: 15px;
+    }
+    .section-feedback .container {
+        padding-top: 55px;
+    }
+}
