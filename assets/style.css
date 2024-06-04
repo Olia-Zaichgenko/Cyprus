@@ -1594,3 +1594,248 @@ footer .light{
         margin-bottom: 20px;
     }
 }
+
+@media(max-width:415px){
+    .container{
+        width: 380px !important;
+    }
+    .container{
+        overflow-x: hidden;
+    }
+    .header {
+        height: 770px;
+    }
+    .traveling {
+        margin: 100px 0px 0 0;
+    }
+    .advent {
+        width: 100px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .section-blog h4 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .navigation .row{
+        display: none;
+    }
+    .btn-type2 {
+        padding: 5px 5px;
+    }
+    .section-adventure .description {
+        background-size: 400px 500px;
+        background-position: center center;
+    }
+    .location img{
+        height: 19px;
+    }
+    .picture1 {
+        top: 530px;
+        left: 85px;
+        height: 135px;
+        width: 135px;
+    }
+    .picture2 {
+        top: 500px;
+        left: 240px;
+        height: 100px;
+        width: 100px;
+    }
+    .picture4 {
+        height: 80px;
+        width: 80px;
+        top: 490px;
+        left: 0px;
+    }
+    .picture3 {
+        top: 450px;
+        left: 340px;
+        height: 60px;
+        width: 60px;
+    }
+    .Nicosia {
+        top: 760px;
+        left: 240px;
+    }
+    .Limassol {
+        top: 820px;
+    }
+    .Larnaca {
+        top: 980px;
+        left: 350px;
+    }
+    .Paphos {
+        top: 1250px;
+        left: 0;
+    }
+    .Troodos {
+        top: 1180px;
+        left: 280px;
+    }
+    .ph1 img{
+        height: 150px;
+    }
+    .img18{
+        margin-top: 150px;
+        height: 250px;
+    }
+    .photos {
+        margin-top: -240px;
+    }
+    .section-enough {
+        height: 650px;
+    }
+    .cost {
+        width: 90px;
+        height: 90px;
+        outline: 6px solid #39BFA7;
+    }
+    .outlinekk {
+        width: 30px;
+        height: 30px;
+    }
+    .box > img {
+        padding: 10px 30px 30px 30px;
+    }
+    .section-enough .video {
+        margin-top: 0px;
+    }
+    .cost1 {
+        top: 1950px;
+        left: 155px;
+    }
+    .Gids {
+        top: 2100px;
+        left: 155px;
+    }
+    .cost .romb {
+        width: 25px;
+        height: 25px;
+    }
+    .cost2 {
+        top: 2025px;
+        left: 70px;
+    }
+    .cost4 {
+        top: 2025px;
+        left: 240px;
+    }
+    .cost h4 {
+        font-size: 10px;
+    }
+    .section-blog .grid {
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(4, 150px);
+        padding-left: 0px;
+    }
+    .section-feedback .forma {
+       width: 370px;
+    }
+    .section-feedback .zaiavka {
+        padding: 35px 0px;
+    }
+    .forma .photo {
+        height: 90px;
+        width: 90px;
+    }
+    .text {
+        text-align: center;
+        width: 360px;
+    }
+    .welcome .row {
+        width: 370px;
+    }
+    .navbar{
+        display: flex;
+        margin: 0px;
+    }
+    .collapse{
+        display: flex;
+        margin: 0px;
+    }
+    .section-blog {
+        margin-top: 70px;
+    }
+    .header1{
+        text-align: center;
+    }
+    .header1 img {
+        height: 12px;
+    }
+    .section-blog p {
+        font-size: 12px;
+    }
+    .section-blog .grid {
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(4, 100px);
+        padding-left: 60px;
+    }
+    .section-blog button {
+        margin: 30px 0 0 120px;
+        font-size: 12px;
+    }
+    .section-roadmap {
+        margin-top: 70px;
+    }
+    .section-blog .grid-el .fg {
+        margin: 60px 0 0 20px;
+    }
+    .section-blog .grid-el:hover .fg {
+        margin: 40px 0 0 20px;
+        font-size: 10px;
+    }
+    .section-blog .grid-el .fg img {
+        height: 5px;
+    }
+    .section-blog button:hover {
+        background-color: #F87932;
+        margin: 10px !important;
+    }
+    .section-roadmap .main_part {
+        padding-left: 50px;
+    }
+    .section-roadmap h1 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    .section-roadmap h3 {
+        font-size: 20px;
+    }
+    .schedule{
+        display: flex;
+        flex-direction: row;
+    }
+    .text img {
+        height: 20px;
+    }
+    .feb img{
+        height: 12px;
+    }
+    .section-feedback .forma {
+        width: 340px;
+    }
+    .forma .btn-type1 {
+        margin: 40px 55px;
+    }
+    .feb-photo {
+        display: none;
+    }
+    footer {
+        padding: 60px 0;
+    }
+}
