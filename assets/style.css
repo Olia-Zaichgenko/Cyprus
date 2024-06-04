@@ -1320,3 +1320,88 @@ footer .light{
         padding: 20px 0;
     }
 }
+
+@media(max-width:821px){
+    .container{
+        width: 700px !important;
+    }
+    .header {
+        height: 1250px;
+    }
+    .picture1 {
+        height: 200px;
+        width: 200px;
+        top: 900px;
+        left: 150px;
+    }
+    .picture2 {
+        height: 160px;
+        width: 160px;
+        top: 820px;
+        left: 360px;
+    }
+    .picture3 {
+        height: 110px;
+        width: 110px;
+        top: 880px;
+        left: 623px;
+    }
+    .picture4 {
+        height: 110px;
+        width: 110px;
+        top: 840px;
+        left: 30px;
+    }
+    .photos{
+        height: 400px;
+    }
+    .Nicosia {
+        top: 1190px;
+        left: 440px;
+    }
+    .Limassol {
+        top: 1320px;
+        left: 20px;
+    }
+    .Larnaca {
+        top: 1460px;
+        left: 670px;
+    }
+    .Troodos {
+        top: 1740px;
+    }
+    .Paphos {
+        top: 1770px;
+    }
+    .section-enough .video {
+        margin-top: 100px;
+    }
+    .section-enough {
+        height: 1100px;
+    }
+    .cost {
+        width: 180px;
+        height: 180px;
+    }
+    .Gids {
+        top: 3340px;
+    }
+    .cost1 {
+        top: 3040px;
+    }
+    .cost2 {
+        top: 3190px;
+    }
+    .cost4 {
+        top: 3190px;
+    }
+    .section-blog {
+        margin-top: 140px;
+    }
+    .feb-photo {
+        margin-bottom: 100px;
+    }
+    .forma .input-group input {
+        padding-right: 0px; 
+    }
+}
