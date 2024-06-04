@@ -1,1 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedgwick+Ave&display=swap');
+.container{
+    width: 1200px;
+}
+p{
+    font-size: 20px;
+}
+a{
+    font-size: 20px;
+    font-family: 'Lato';
+    color: #F87932;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .5s;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Merriweather';
+}
+h2{
+    font-size: 60px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 700;
+}
+h4{
+    font-family: 'Lato';
+    font-size: 24px;
+    color: #666666;
+}
+h5{
+    color: #969696;
+    font-family: 'Sedgwick Ave';
+    font-size: 28px;
+}
+h6{
+    font-size: 16px;
+    font-family: 'Lato';
+}
+.block{
+    background-color: #FFFFFFD9;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 5px 10px 0 #444444;
+    text-align: center;
+    width: 150px;
+    padding: 15px;
+    transition: .5s;
+}
+.block-1{
+    height: 62px;
+}
+.block-1:hover{
+    height: 100px;
+    box-shadow: 0 5px 10px 0 #FFFFFFD9;
+    padding-top: 50px;
+    transition: .3s;
+}
+.block-2{
+    height: 102px;
+}
+.navigation .container{
+    padding-left: 100px;
+}
+.collapse{
+    color: #F87932;
+    margin-top: -100px;
+    display: none;
+}
+.navbar{
+    margin-top: -100px;
+    display: none;
+}
