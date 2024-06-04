@@ -48,7 +48,7 @@ h6{
     border-radius: 0 0 15px 15px;
     box-shadow: 0 5px 10px 0 #444444;
     text-align: center;
-    width: 150px;
+    /* width: 150px; */
     padding: 15px;
     transition: .5s;
 }
@@ -458,6 +458,49 @@ h6{
 .section-roadmap .schedule .col-md-9{
     margin-top: 50px;
 }
+.section-feedback .container{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-feedback .zaiavka{
+    margin-right: 400px;
+}
+.forma{
+    display: flex;
+    flex-direction: row;
+}
+.forma .input-group input{
+    border: 3px solid #F87932;
+    border-radius: 10px;
+    padding-right: 100px;
+}
+.forma ::placeholder{
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.forma .zaiavka{
+   padding: 150px 0;
+}
+.forma .photo{
+    height: 150px;
+    width: 150px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    outline: 7px solid #39BFA7;
+    margin: 50px 0;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.forma .photo > img{
+    max-width: 100%;
+    transform: rotate(-45deg) scale(2.1);
+    z-index: -1;
+    position: relative;
+    padding: 24px;
+} 
 footer{
     background-color: #151C21;
     color: #FFFFFF;
