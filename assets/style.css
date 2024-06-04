@@ -2064,3 +2064,201 @@ footer .light{
         padding: 45px 0px;
     }
 }
+
+@media(max-width:320px){
+    .container{
+        width: 310px !important;
+        overflow-x: hidden !important;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .section-blog h4 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .img18 {
+        margin-top: 100px;
+        height: 200px;
+    }
+    .photos{
+        margin-top: 100px;
+    }
+    .welcome .row {
+        padding-left: 20px;
+    }
+    .traveling {
+        margin: 60px 0px 0 0;
+    }
+    .btn-type1 {
+        width: 190px;
+        font-size: 9.3px;
+        margin: 10px 5px !important;
+    }
+    .header {
+        height: 600px;
+    }
+    .picture1 {
+        top: 440px;
+        left: 75px;
+        height: 90px;
+        width: 90px;
+        padding: 10px;
+    }
+    .picture2 {
+        top: 410px;
+        left: 170px;
+        height: 70px;
+        width: 70px;
+    }
+    .picture {
+        border: 5px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .welcome .row {
+        width: 300px;
+    }
+    .picture3 {
+        top: 370px;
+        left: 240px;
+    }
+    .picture4 {
+        top: 400px;
+        left: 20px;
+        height: 60px;
+        width: 60px;
+    }
+    .section-adventure .description {
+        background-size: 270px 350px;
+        background-position: center center;
+    }
+    .img18 {
+        margin-top: 120px;
+        height: 180px;
+    }
+    .location p {
+        font-size: 10px;
+    }
+    .Nicosia img {
+        margin: 20px 10px 0 0;
+    }
+    .Nicosia {
+        top: 570px;
+        left: 180px;
+    }
+    .Limassol img {
+        margin: 30px 0 0 10px;
+    }
+    .Limassol {
+        top: 630px;
+        left: 00px;
+    }
+    .Larnaca {
+        top: 715px;
+        left: 260px;
+    }
+    .Troodos img {
+        margin: 20px 0 0 10px;
+    }
+    .Troodos {
+        left: 240px;
+        top: 800px;
+    }
+    .Paphos {
+        top: 910px;
+        left: 10px;
+    }
+    .section-adventure .description p {
+        margin-top: 20px;
+    }
+    .section-adventure button {
+        margin-top: 0px;
+    }
+    .photos {
+        margin-top: -160px;
+    }
+    .section-enough {
+        padding-top: 100px;
+        height: 500px;
+    }
+    .cost {
+        width: 80px;
+        height: 80px;
+        outline: 4px solid #39BFA7;
+    }
+    .Gids {
+        top: 1650px;
+        left: 120px;
+    }
+    .cost1 {
+        top: 1520px;
+        left: 120px;
+    }
+    .cost2 {
+        top: 1585px;
+        left: 50px;
+    }
+    .cost4 {
+        top: 1585px;
+        left: 190px;
+    }
+    .section-blog {
+        margin-top: 70px;
+    }
+    .header1 img {
+        height: 9px;
+    }
+    .section-blog .grid {
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(4, 80px);
+        padding-left: 50px;
+    }
+    .grid-el:hover .fg {
+        margin: 30px 0 0 10px;
+    }
+    .section-blog h4 {
+        margin: 5px 0;
+    }
+    .section-blog p {
+        margin: 10px 0;
+    }
+    .section-blog p {
+        font-size: 10px;
+    }
+    .section-roadmap .container {
+        width: 280px !important;
+        border: 2px solid #FFFFFF;
+    }
+    .section-blog button {
+        margin: 15px 0 0 85px;
+        font-size: 11px;
+    }
+    .text {
+        text-align: center;
+        width: 250px;
+    }
+    .feb img {
+        height: 10px;
+    }
+    .section-feedback .forma {
+        width: 250px;
+    }
+    .forma .row .input-group span{
+        display: none;
+    }
+    .section-feedback .zaiavka {
+        padding: 0;
+    }
+    .forma .input-group input {
+        border: 1.5px solid #F87932;
+        border-radius: 5px;
+    }
+    .section-feedback .btn-type1 {
+        margin: 15px 30px !important;
+    }
+}
