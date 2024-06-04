@@ -524,3 +524,105 @@ footer .description{
 footer .light{
     font-weight: 300;
 }
+@media(max-width:1600px){
+    .container{
+        width: 1400px !important;
+    }
+    .header{
+        height: 930px;
+    }
+    .navigation .container{
+        display: flex;
+        justify-content: center;
+    }
+    .welcome .rombs{
+        height: 830px;
+    }
+    .img2 {
+        position: absolute;
+        top: 540px;
+        right: 580px;
+    }
+    .img3 {
+        position: absolute;
+        top: 630px;
+        right: 360px;
+    }
+    .img4 {
+        position: absolute;
+        top: 470px;
+        right: 145px;
+    }
+    .img5 {
+        position: absolute;
+        top: 380px;
+        right: 140px;
+    }
+    .img6 {
+        position: absolute;
+        top: 150px;
+        right: 140px;
+    }
+    .section-adventure .description {
+        padding: 120px 70px 0 70px;
+    }
+    .Nicosia {
+        position: absolute;
+        top: 870px;
+        left: 530px;
+    }
+    .Limassol {
+        position: absolute;
+        top: 1000px;
+        left: 100px;
+    }
+    .Larnaca {
+        position: absolute;
+        top: 1130px;
+        left: 680px;
+    }
+    .Troodos {
+        position: absolute;
+        top: 1410px;
+        left: 570px;
+    }
+    .Paphos {
+        position: absolute;
+        top: 1450px;
+        left: 150px;
+    }
+    .section-enough {
+        padding-top: 200px;
+        height: 890px;
+    }
+    .box > img {
+        padding: 25px 25px 25px 30px;
+    }
+    .outlinekk {
+        width: 80px;
+        height: 80px;
+        margin-top: 80px;
+    }
+    .box {
+        width: 80px;
+        height: 80px;
+    }
+    .cost {
+        margin-right: 120px;
+    }
+    .section-blog {
+        margin-top: 250px;
+    }
+    .section-blog .grid{
+        padding-left: 50px;
+    }
+    .section-blog p {
+        margin: 15px 0;
+    }
+    .section-blog button {
+        margin: 30px 0 0 540px;
+    }
+    .forma .zaiavka {
+        padding: 60px 0;
+    }
+}
