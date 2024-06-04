@@ -1121,3 +1121,202 @@ footer .light{
         margin: 200px 0 0 20px;
     }
 }
+
+@media(max-width:835px){
+    .container{
+        width: 700px !important;
+    }
+    a{
+        font-size: 14px;
+    }
+    .block-1 {
+        height: 42px;
+        padding: 5px 0 0 0 !important;
+    }
+    .block-2 img{
+        height: 60px;
+    }
+    .header {
+        height: 1300px;
+    }
+    .welcome .row {
+        padding-left: 50px;
+    }
+    .img6 {
+        height: 170px;
+        top: 370px;
+        right: 20px;
+    }
+    .welcome .slider{
+        display: none;
+    }
+    .picture {
+        opacity: 1;
+    }
+    .traveling {
+        margin: 170px 0px 0 0;
+    }
+    .btn-type1 {
+        padding: 7px 44px;
+    }
+    .advent{
+        display: none;
+    }
+    .welcome .row{
+        width: 830px;
+    }
+    .navigation .row .block{
+        margin-right: 10px !important;
+    }
+    .navigation .row {
+        padding-left: 50px;
+    }
+    .picture1 {
+        height: 230px;
+        width: 230px;
+        position: absolute;
+        top: 900px;
+        left: 140px;
+    }
+    .picture2 {
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        top: 820px;
+        left: 390px;
+    }
+    .picture3 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 880px;
+        left: 640px;
+    }
+    .picture4 {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 870px;
+        left: 30px;
+    }
+    .section-adventure .description {
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .section-adventure .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Nicosia {
+        top: 1230px;
+        left: 440px;
+    }
+    .Limassol {
+        top: 1380px;
+        left: 20px;
+    }
+    .Larnaca {
+        top: 1510px;
+        left: 670px;
+    }
+    .Troodos {
+        top: 1800px;
+        left: 480px;
+    }
+    .Paphos {
+        top: 1820px;
+        left: 70px;
+    }
+    .ph1 img{
+        height: 250px;
+    }
+    .photos {
+        display: flex;
+        justify-content: space-between;
+        height: 450px;
+        margin-top: 50px;
+    }
+    .section-enough {
+        margin-top: 0px;
+    }
+    .cost{
+        width:200px ;
+        height: 200px;
+        margin: 0px;
+    }
+    .cost1 {
+        position: absolute;
+        top: 3250px;
+        left: 320px;
+    }
+    .cost2 {
+        position: absolute;
+        top: 3430px;
+        left: 150px;
+    }
+    .Gids {
+        position: absolute;
+        top: 3600px;
+        left: 320px;
+    }
+    .cost4 {
+        position: absolute;
+        top: 3430px;
+        left: 490px;
+    }
+    .section-blog {
+        margin-top: 80px;
+    }
+    .section-blog .grid {
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: repeat(4, 200px);
+        padding-left: 120px;
+    }
+    .section-blog button {
+        margin: 30px 0 0 250px;
+    }
+    .section-roadmap h1 {
+        font-size: 48px;
+    }
+    .main_part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-roadmap .main_part {
+        padding-left: 0px;
+    }
+    .hikes{
+        width: 100%;
+    }
+    .main_part .col-md-8{
+        width: 100%;
+    }
+    .section-roadmap .schedule .col-md-9 {
+        margin-top: 10px;
+    }
+    .section-roadmap h3 {
+        font-size: 26px;
+    }
+    .btn-type1 {
+        margin:  0;
+    }
+    .section-roadmap {
+        background-position: center 0px;
+    }
+    .section-feedback .container {
+        padding-top: 50px;
+    }
+    .forma .btn-type1 {
+        margin: 40px 130px;
+    }
+    .section-feedback .zaiavka {
+        padding: 55px 100px;
+    }
+    footer {
+        padding: 20px 0;
+    }
+}
