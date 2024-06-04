@@ -1496,3 +1496,101 @@ footer .light{
         margin-bottom: 60px;
     }
 }
+
+@media(max-width:769px){
+    .container{
+        width: 700px !important;
+    }
+    p {
+        font-size: 19px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 38px;
+    }
+    .section-blog h4 {
+        font-size: 24px;
+    }
+    .welcome .row {
+        width: 600px;
+    }
+    .btn-type1 {
+        width: 230px;
+    }
+    .photos {
+        margin-top: -60px;
+    }
+    .Limassol {
+        top: 1200px;
+    }
+    .Larnaca {
+        top: 1380px;
+    }
+    .Troodos {
+        top: 1630px;
+    }
+    .outlinekk {
+        width: 50px;
+        height: 50px;
+    }
+    .box > img {
+        padding: 20px 30px 30px 30px;
+    }
+    .section-enough {
+        height: 900px;
+    }
+    .section-enough .video {
+        margin-top: 30px;
+    }
+    .cost {
+        width: 130px;
+        height: 130px;
+        outline: 7px solid #39BFA7
+    }
+    .Gids {
+        top: 2890px;
+        left: 320px;
+    }
+    .cost1 {
+        top: 2670px;
+        left: 320px;
+    }
+    .cost h4 {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .cost .romb {
+        width: 45px;
+        height: 45px;
+    }
+    .cost4 {
+        top: 2780px;
+        left: 450px;
+    }
+    .cost2 {
+        top: 2780px;
+        left: 190px;
+    }
+    .section-blog .grid {
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(4, 150px);
+        padding-left: 170px;
+    }
+    .section-blog .grid-el p {
+        font-size: 13px;
+    }
+    .section-blog button {
+        margin: 30px 0 0 240px;
+    }
+    .section-roadmap {
+        padding: 20px 0 20px 0;
+    }
+    .section-feedback .container {
+        padding-top: 30px;
+    }
+    .feb-photo {
+        margin-bottom: 20px;
+    }
+}
