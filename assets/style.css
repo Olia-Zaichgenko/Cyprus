@@ -32,6 +32,7 @@ h4{
     font-family: 'Lato';
     font-size: 24px;
     color: #666666;
+    letter-spacing: 4px;
 }
 h5{
     color: #969696;
@@ -62,9 +63,6 @@ h6{
 }
 .block-2{
     height: 102px;
-}
-.navigation .container{
-    padding-left: 100px;
 }
 .collapse{
     color: #F87932;
@@ -98,6 +96,7 @@ h6{
     transition: .5s;
 }
 .btn-type1:hover{
+   background-color: #eec0a5;
     margin-left: 20px ;
     box-shadow: 0 0 20px #666666c9;
     transition: .3s;
@@ -114,7 +113,7 @@ h6{
    opacity: 0;
 }
 .photos{
-    opacity: 0;
+    display: none;
     margin-top: -200px;
 }
 .picture1 {
@@ -170,4 +169,76 @@ h6{
     position: absolute;
     top: 150px;
     right: 310px;
+}
+.section-adventure .description{
+    padding: 120px 70px 0 70px;
+    background: url(./img/Vector\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+}
+.section-adventure .description p{
+    margin-top: 30px;
+}
+.section-adventure button{
+    margin-top: 150px;
+}
+.btn-type2{
+    padding: 16px 24px;
+    background-color: #FFFFFF;
+    letter-spacing: 3px;
+    transition: .5s;
+}
+.btn-type2:hover{
+    margin-left: 20px ;
+    box-shadow: 0 0 20px #ffffffc9;
+    background-color: #F87932;
+    transition: .3s;
+}
+.location p{
+    font-size: 16px;
+    font-family: 'Sedgwick Ave';
+    color: #999999;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+}
+.Nicosia img{
+    margin: 30px 10px 0 0;
+}
+.Nicosia {
+    position: absolute;
+    top: 1050px;
+    left: 730px;
+}
+.Limassol img{
+    margin: 30px 0 0 10px;
+}
+.Limassol {
+    position: absolute;
+    top: 1200px;
+    left: 310px;
+}
+.Larnaca img{
+    margin: 30px 10px 0 0;
+}
+.Larnaca {
+    position: absolute;
+    top: 1300px;
+    left: 900px;
+}
+.Troodos img{
+    margin: 30px 0 0 10px;
+}
+.Paphos img{
+    margin: 30px 0 0 10px;
+}
+.Troodos {
+    position: absolute;
+    top: 1590px;
+    left: 800px;
+}
+.Paphos {
+    position: absolute;
+    top: 1640px;
+    left: 380px;
 }
