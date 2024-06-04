@@ -696,3 +696,45 @@ footer .light{
         padding-top: 55px;
     }
 }
+@media(max-width:1440px){
+    .container{
+        width: 1300px !important;
+    }
+    .traveling {
+        margin: 180px 80px 0 0;
+    }
+    .Nicosia {
+        top: 870px;
+        left: 450px;
+    }
+    .Limassol {
+        top: 1010px;
+        left: 20px;
+    }
+    .Troodos {
+        top: 1420px;
+        left: 500px;
+    }
+    .Paphos {
+        top: 1450px;
+        left: 90px;
+    }
+    .section-enough {
+        margin-top: 170px;
+    }
+    .section-roadmap .schedule .col-md-3 {
+        margin-top: 20px;
+    }
+    .section-roadmap .schedule .col-md-9 {
+        margin-top: 20px;
+    }
+    .section-feedback .container {
+        padding-top: 90px;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    footer .line {
+        margin: 40px 0;
+    }
+}
