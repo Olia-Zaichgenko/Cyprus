@@ -1925,3 +1925,142 @@ footer .light{
         padding-top: 85px;
     }
 }
+
+@media(max-width:377px){
+    .container{
+        width: 360px !important;
+        overflow-x: hidden;
+    }
+    h4 {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .picture3 {
+        top: 510px;
+        left: 300px;
+    }
+    .header {
+        height: 720px;
+    }
+    .picture1 {
+        top: 530px;
+        left: 90px;
+        height: 110px;
+        width: 110px;
+    }
+    .picture2 {
+        top: 500px;
+        left: 210px;
+        height: 80px;
+        width: 80px;
+    }
+    .picture3 {
+        top: 470px;
+        left: 300px;
+    }
+    .picture4 {
+        top: 480px;
+        left: 20px;
+    }
+    .section-adventure .description {
+        background-size: 350px 450px;
+        background-position: center center;
+    }
+    .Nicosia {
+        top: 730px;
+        left: 220px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .Limassol {
+        top: 800px;
+        left: 10px;
+    }
+    .Larnaca {
+        top: 925px;
+        left: 300px;
+    }
+    .Troodos {
+        top: 1090px;
+    }
+    .Paphos {
+        top: 1170px;
+        left: 0;
+    }
+    .btn-type2 {
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+    .img18 {
+        margin-top: 190px;
+        height: 200px;
+    }
+    .ph1 img {
+        height: 100px;
+    }
+    .location img {
+        height: 14px;
+    }
+    .section-enough {
+        height: 600px;
+    }
+    .outlinekk {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    .box > img {
+        padding: 10px 30px 40px 30px;
+    }
+    .Gids {
+        top: 1980px;
+    }
+    .cost1 {
+        top: 1830px;
+    }
+    .cost2 {
+        top: 1905px;
+    }
+    .cost4 {
+        top: 1905px;
+    }
+    .section-blog .grid {
+        grid-template-columns: repeat(3, 90px);
+        grid-template-rows: repeat(4, 90px);
+        padding-left: 65px;
+    }
+    .section-blog .grid-el p {
+        font-size: 10px;
+    }
+    .section-blog button {
+        margin: 30px 0 0 110px;
+        font-size: 11px;
+    }
+    .section-roadmap {
+        margin-top: 40px;
+    }
+    .section-feedback .container {
+        padding-top: 25px;
+    }
+    .section-feedback .forma {
+        width: 300px;
+    }
+    .forma ::placeholder{
+        font-size: 12px;
+    }
+    .btn-type1 {
+        width: 190px;
+        font-size: 11px;
+        margin: 10px 55px !important;
+    }
+    .section-feedback .zaiavka {
+        padding: 45px 0px;
+    }
+}
